@@ -1,0 +1,1 @@
+Cross program invocation for solana native contract
