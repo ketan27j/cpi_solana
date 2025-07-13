@@ -63,4 +63,7 @@ test("one transfer", () => {
     const newDataAcc = svm.getAccount(dataAccount.publicKey);
     expect(newDataAcc?.data.length).toBe(4);
     expect(newDataAcc?.data[0]).toBe(8);
+    expect(newDataAcc?.data[1 ]).toBe(0);
+    expect(newDataAcc?.data[2]).toBe(0);
+    expect(newDataAcc?.data[3]).toBe(0);
 });
